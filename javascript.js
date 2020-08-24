@@ -4,9 +4,7 @@ let dog = {
   vacuna: true,
   colors: 'yellow'
 }
-// mutavilidad y copiado de objetos
-let otherdog = dog
-
-let dog2 = Object.assign({},dog) => // sirve para no alterar el objeto original
-dog2.orejas = 'largas'
-console.log(dog)
+// Recorrer objetos
+Object.entries() => // Devuelve como array cada una de las entradas del objeto(propiedad,valor)
+Object.Keys() => // Devuelve un object (array like)con toda las propiedades
+Object.Values() => // Devuelve los valo
