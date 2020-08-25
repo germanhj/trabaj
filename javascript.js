@@ -1,10 +1,3 @@
-let dog = {
-  name: 'doki',
-  age: 11,
-  vacuna: true,
-  colors: 'yellow'
-}
-// Recorrer objetos
-Object.entries() => // Devuelve como array cada una de las entradas del objeto(propiedad,valor)
-Object.Keys() => // Devuelve un object (array like)con toda las propiedades
-Object.Values() => // Devuelve los valo
+let numbers = [5,6,7,8,9,10]
+
+console.log(numbers.sort((a,b) => a - b))
